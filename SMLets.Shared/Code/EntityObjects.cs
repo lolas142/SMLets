@@ -221,7 +221,7 @@ public class ObjectCmdletHelper : SMCmdletBase
             OpToOp.Add("-le","<=");
             OpToOp.Add("-ge",">=");
             OpToOp.Add("-like","like");
-            OpToOp.Add("-notlike","! like");
+            OpToOp.Add("-notlike","not like");
             OpToOp.Add("-isnull", "is null");
             OpToOp.Add("-isnotnull", "is not null");
             re = new Regex("\\*");
